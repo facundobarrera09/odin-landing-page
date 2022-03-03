@@ -12,6 +12,18 @@ a {
     text-decoration: none;
     color: #E5E7EB;
 }
+button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 2px solid #E5E7EB;
+    padding: 5px 35px;
+    border-radius: 10px;
+}
+h1,
+p {
+    margin: 0;
+    margin-bottom: 10px;
+}
 
 /* GENERIC CLASSES */
 .container {
@@ -19,6 +31,7 @@ a {
 }
 .dark {
     background-color: #1F2937;
+    color: #F9FAF8;
 }
 
 /* HEADER CLASSES */
@@ -42,4 +55,27 @@ a {
     display: flex;
     align-items: center;
     gap: 20px
+}
+
+/* HERO CLASSES */
+.hero {
+    padding: 70px 0;
+    padding-top: 45px;
+    display: flex;
+    gap: 70px;
+}
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.hero-text p {
+    color: #E5E7EB;
+}
+.hero-img {
+    width: 300px;
+    height: auto;
+    flex: 1 0 auto;
+    border-radius: 10px;
 }
