@@ -21,6 +21,8 @@ button {
     border-radius: 10px;
 }
 h1,
+h2,
+h3,
 p {
     margin: 0;
     margin-bottom: 10px;
@@ -55,7 +57,7 @@ p {
 .header-links {
     display: flex;
     align-items: center;
-    gap: 20px
+    gap: 20px;
 }
 
 /* HERO CLASSES */
@@ -79,4 +81,53 @@ p {
     height: auto;
     flex: 1 0 auto;
     border-radius: 10px;
+}
+
+/* INFORMATION CLASSES */
+.information {
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.information h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card {
+    width: 150px;
+    height: 180px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card img {
+    width: 64px;
+    height: 64px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.card h3 {
+    color: #1F2937;
+    font-size: 18px;
+    font-weight: 100;
 }
