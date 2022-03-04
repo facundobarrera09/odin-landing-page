@@ -36,6 +36,10 @@ p {
     background-color: #1F2937;
     color: #F9FAF8;
 }
+.light {
+    background-color: #E5E7EB;
+    color: #1F2937
+}
 
 /* HEADER CLASSES */
 .header {
@@ -85,7 +89,7 @@ p {
 
 /* INFORMATION CLASSES */
 .information {
-    padding: 30px 0;
+    padding: 80px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -131,4 +135,37 @@ p {
     color: #1F2937;
     font-size: 18px;
     font-weight: 100;
+}
+
+/* OPINION CLASSES */
+.opinion {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.opinion-text {
+    font-size: 36px;
+    font-style: italic;
+}
+.opinion-author {
+    color: #1F2937;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: end;
+}
+
+/* CALL CLASSES */
+.call {
+    background-color: #3882F6;
+    border-radius: 10px;
+    margin: 80px 0;
+    padding: 40px 100px;
+    color: #F9FAF8;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.call p {
+    margin: 0;
 }
