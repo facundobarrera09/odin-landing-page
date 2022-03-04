@@ -30,7 +30,7 @@ p {
 
 /* GENERIC CLASSES */
 .container {
-    padding: 0 120px;
+    padding: 0 200px;
 }
 .dark {
     background-color: #1F2937;
@@ -101,6 +101,7 @@ p {
 .cards {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
